@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mauricio Cajiao Velasco - Consultor Empresarial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #00509e;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #003366;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mauricio Cajiao Velasco</h1>
+        <p>Consultor Empresarial</p>
+    </header>
+    <nav>
+        <a href="#about">Sobre mí</a>
+        <a href="#experience">Experiencia</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <section id="about" class="container">
+        <h2>Sobre mí</h2>
+        <p>Profesional en Publicidad & Mercadeo, egresado de la Universidad de Bogotá Jorge Tadeo Lozano. Con más de 30 años de experiencia profesional, 22 en el Grupo Shell, en el sector “Downstream”, en puestos de Marketing & Ventas con alcance transnacional, gestionando procesos de mercadeo y comerciales, liderando equipos multiculturales en los principales mercados latinoamericanos.</p>
+        <p>Especialista en desarrollo, ejecución, monitoreo de estrategias y planes de Marketing, Marca & Comunicación así como programas de venta, análisis de mercados, tendencias, identificación de oportunidades y desarrollo de estrategias para nuevos negocios.</p>
+    </section>
+    <section id="experience" class="container">
+        <h2>Experiencia</h2>
+        <ul>
+            <li><strong>Trading Internacional Derivados del Petróleo</strong> - Independiente (2020 a la fecha)</li>
+            <li><strong>Consultor Externo</strong> - Start Up – Hipomoto – Servitecas (2019 - 2020)</li>
+            <li><strong>Socio / Consultor</strong> - Proyectos Exploración y Explotación Gestión Recursos Hídricos - HydroNova SAS (2014 – 2019)</li>
+            <li><strong>Socio / Fundador</strong> - Producción de Comerciales de TV, Fotografía y Audiovisuales - Cajiao Producciones SAS (2010 – 2014)</li>
+            <li><strong>Socio / Fundador</strong> - Producción de ingredientes naturales a base de Stevia, nutricionales - Ofarma SAS (2006 - 2010)</li>
+            <li><strong>Global Distributor Process Developer Manager</strong> - Shell Colombia S.A. (2005 - 2006)</li>
+            <li><strong>Gerente de Mercadeo – Consumer Lubricants LATAM</strong> - Shell Colombia S.A. (2003 - 2005)</li>
+            <li><strong>Gerente de Mercadeo Marca y Comunicaciones Norte de LATAM</strong> - Shell Colombia S.A. (2001 – 2003)</li>
+            <!-- Agregar más experiencias según sea necesario -->
+        </ul>
+    </section>
+    <section id="contact" class="container">
+        <h2>Contacto</h2>
+        <p>Email: <a href="mailto:mcv@iclaro.com.co">mcv@iclaro.com.co</a></p>
+        <p>Teléfono móvil: +1 57 310-249-3902</p>
+        <p>Teléfono fijo: 571-6407857</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Mauricio Cajiao Velasco. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
